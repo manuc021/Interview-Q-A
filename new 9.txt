@@ -1,0 +1,31 @@
+                                      TESTING
+                                          │
+        ┌─────────────────────────────────┴─────────────────────────────────┐
+        │                                                                   │
+   AI TESTING                                                     TESTING WITH AI
+ (Testing AI Systems)                                            (AI for QA)
+        │                                                                   │
+ ┌──────┼───────────┬───────────────┬───────────────┐             ┌────────┼───────────────┬─────────────┐
+ │      │           │               │               │             │        │               │             │
+Chatbot RAG       Agents          MCP             NLQ         Test Case  Test Data     Test Script   Defect
+Testing Testing   Testing       Testing         Testing      Generation  Generation    Generation   Analysis
+ │      │           │               │               │             │        │               │             │
+ │      │           │               │               │             │        │               │             │
+ ├─Intent  ├─Context  ├─Tool      ├─Agent        ├─Schema      ├─AI     ├─Synthetic    ├─Auto       ├─Root
+ │ Accuracy  Precision  Selection   Coordination    Grounding     Generated  Data          Automation   Cause
+ │
+ ├─Context  ├─Faithful  ├─Memory    ├─Message      ├─SQL         Test     Data Masking   Self-        Log
+ │ Retention  ness       Handling     Passing        Injection     Scenarios               Healing      Clustering
+ │
+ ├─Halluci  ├─Chunking  ├─Loop      ├─Deadlock     ├─RBAC        Edge     Data Drift     Framework-   AI
+ │ nation     Strategy    Detection    Detection      Testing      Case                   Level        Based
+ │ Rate
+ │
+ ├─RBAC     ├─Embedding ├─Retry     ├─State        ├─Query        Risk    Data Bias      Regression    Severity
+ │ Testing    Accuracy    Handling     Integrity      Accuracy      Based                  Scripts       Prediction
+ │
+ ├─Prompt   ├─Retrieval ├─Fallback  ├─Isolation     ├─Performance Testing
+ │ Injection  Latency      Logic       Testing         Testing
+ │
+ └─Security  └─Grounded  └─Cost      └─Security      └─Cost
+  Testing      ness         Tracking    Testing          Tracking
