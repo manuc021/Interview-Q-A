@@ -29,3 +29,133 @@ Testing Testing   Testing       Testing         Testing      Generation  Generat
  │
  └─Security  └─Grounded  └─Cost      └─Security      └─Cost
   Testing      ness         Tracking    Testing          Tracking
+
+
+AI-POWERED QA
+│
+├── Test Case Generation
+│   ├─ Functional Scenarios
+│   ├─ Edge Cases
+│   ├─ Risk-Based Scenarios
+│   └─ Negative Testing
+│
+├── Synthetic Test Data
+│   ├─ Structured Data
+│   ├─ Conversational Data
+│   ├─ Anonymized Data
+│   └─ Bias-Free Data
+│
+├── Automation Enhancement
+│   ├─ Script Generation
+│   ├─ Self-Healing Tests
+│   ├─ Intelligent Locators
+│   └─ CI/CD Optimization
+│
+├── Defect Intelligence
+│   ├─ Log Clustering
+│   ├─ Root Cause Detection
+│   ├─ Severity Prediction
+│   └─ Pattern Recognition
+│
+└── Continuous Evaluation
+    ├─ Regression Score Comparison
+    ├─ Drift Alerts
+    ├─ Cost Monitoring
+    └─ SLA Monitoring
+Classical ML
+│
+├── Data Validation
+│   ├─ Missing Values
+│   ├─ Outliers
+│   ├─ Schema Validation
+│   ├─ Class Imbalance
+│   └─ Data Leakage
+│   Tools:
+│   - Great Expectations
+│   - Evidently AI
+│
+├── Feature Engineering Validation
+│   ├─ Train vs Prod Consistency
+│   ├─ Encoding Validation
+│   ├─ Scaling Validation
+│   └─ Feature Drift
+│   Tools:
+│   - Feast
+│   - Custom validation scripts
+│
+├── Model Evaluation
+│   ├─ Accuracy
+│   ├─ Precision / Recall
+│   ├─ F1 Score
+│   ├─ ROC-AUC
+│   └─ Overfitting Detection
+│   Tools:
+│   - MLflow
+│   - Weights & Biases
+│
+├── Bias & Explainability
+│   ├─ Fairness Check
+│   ├─ SHAP Analysis
+│   ├─ LIME Analysis
+│   └─ Segment Performance
+│   Tools:
+│   - Fairlearn
+│   - SHAP
+│
+└── Production Monitoring
+    ├─ Data Drift
+    ├─ Concept Drift
+    ├─ Accuracy Drop
+    └─ Confidence Score Shift
+    Tools:
+    - Arize AI
+    - Fiddler AI
+LLM / GenAI
+│
+├── Chatbot Systems
+│   ├─ Intent Accuracy
+│   ├─ Context Retention
+│   ├─ Hallucination
+│   ├─ Prompt Injection
+│   ├─ RBAC
+│   └─ Toxicity
+│   Tools:
+│   - RAGAS
+│   - DeepEval
+│   - LangSmith
+│
+├── RAG Systems
+│   ├─ Context Precision
+│   ├─ Context Recall
+│   ├─ Faithfulness
+│   ├─ Chunking Strategy
+│   ├─ Embedding Accuracy
+│   └─ Retrieval Latency
+│   Tools:
+│   - RAGAS
+│   - LlamaIndex
+│   - Pinecone / Weaviate
+│
+├── Agent Systems
+│   ├─ Tool Selection
+│   ├─ Tool Execution
+│   ├─ Loop Detection
+│   ├─ Retry Logic
+│   ├─ Memory Handling
+│   └─ Cost Tracking
+│   Tools:
+│   - LangSmith
+│   - OpenTelemetry
+│   - Arize AI
+│
+└── MCP (Multi-Agent Pipelines)
+    ├─ Agent Coordination
+    ├─ Deadlock Detection
+    ├─ Message Integrity
+    ├─ State Consistency
+    └─ Isolation Testing
+    Tools:
+    - LangGraph
+    - Jaeger
+
+
