@@ -1,0 +1,39 @@
+/nlq_golden_dataset.json
+[
+  {
+    "id": "TC_001",
+    "nlq": "Show revenue by region for 2024",
+    "expected_sql": "SELECT region, SUM(revenue) FROM sales WHERE year=2024 GROUP BY region",
+    "intent": "aggregation",
+    "complexity": "simple"
+  },
+  {
+    "id": "TC_014",
+    "nlq": "Show number of unique customers by region",
+    "expected_sql_contains": "COUNT(DISTINCT customer_id)",
+    "intent": "distinct_count",
+    "complexity": "medium"
+  }
+]
+
+sql_validator.py
+def validate_sql_structure(sql, expected_keywords):
+    for keyword in expected_keywords:
+        assert keyword.lower() in sql.lower()
+
+Optional advanced:
+
+Use sqlglot for AST comparison.
+
+result_comparator.py
+import hashlib
+import json
+
+def hash_result(result):
+    normalized = json.dumps(result, sort_keys=True)
+    return hashlib.md5(normalized.encode()).hexdigest()
+injection_checker.py
+def detect_sql_injection(sql):
+    forbidden = ["DROP", "DELETE", "INSERT", ";--"]
+    for word in forbidden:
+        assert word not in sql.upper()
